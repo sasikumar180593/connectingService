@@ -1,0 +1,11 @@
+<p>Welcome</p>
+
+<div *ngFor='let item of task'>
+    <h2>User ID : {{item.id}}</h2>
+
+    <ul>
+        <li>{{item.userID}}</li>
+        <li>{{item.title}}</li>
+        <li>{{item.completedStatus}}</li>
+    </ul>
+</div>
